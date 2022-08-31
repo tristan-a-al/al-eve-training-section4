@@ -1,33 +1,31 @@
-import type { NextPage } from 'next'
+import RunAwayEffect from '@/components/RunAwayEffect'
+import { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
-const Home: NextPage = () => {
+const Q61:NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>EVE Section4</title>
+        <title>EVE Section4: Q6</title>
         <meta name="description" content="Section 4 in EVE React Evaluation. " />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Question 2: Creating a Todo list.
+          Question 6:
         </h1>
 
         <p className={styles.description}>
-          This will evaluate your understanding of React Context and using custom hooks as well as basic form validation practices.
-          This will all come together to create an offline todo list task tracker.
+          The below component is a run-away effect. How would you fix it?
         </p>
 
         <div className={styles.grid}>
 
 
-          <Link href="/Q6-1"><div className={styles.card}>
-              <p> Start Here </p>
-            </div></Link>
+          <RunAwayEffect/>
 
           
 
@@ -38,4 +36,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default Q61
