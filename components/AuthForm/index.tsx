@@ -17,9 +17,9 @@ function AuthForm() {
         event.preventDefault()
 
         if(isSignin){
-            signIn('credentials',{redirect:false, email:"Question 7.1.4", password:"Question 7.1.4"})
+            // Question 7.1.3
         }else{
-            // Question 7.3.1
+            // Question 7.1.2
         }
 
     }
