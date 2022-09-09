@@ -6,11 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test":"jest --watch",
+    "test": "jest --watch",
     "lint": "next lint"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "next": "12.2.5",
+    "next-auth": "^4.10.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },

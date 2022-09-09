@@ -1,0 +1,103 @@
+.header{
+    background-color: rgb(57, 9, 74);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0 2px 12px 1px black;
+}
+
+.logo{
+
+    margin: auto 2rem;
+    padding: .5rem;
+    line-height: 2.25rem;
+    text-align: center;
+}
+
+.logo > h1{
+    font-weight: 400;
+}
+
+.header > nav{
+    width: min-content;
+    display: flex;
+    flex-direction: row;
+    margin: auto 2rem;
+    padding: .5rem;
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.header > nav > ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: auto 1rem;
+    justify-content: flex-start;
+    margin-block: 0;
+    padding-inline: 0;
+}
+
+.header > nav > ul > li{
+    position: relative;
+    font-size: 1.25rem;
+    margin:auto .5rem;
+    padding: 0.25rem;
+    z-index: 10;
+    min-width: max-content;
+    width: 8rem;
+    height: 2.3rem;
+    justify-content: center;
+}
+
+
+
+.header > nav > ul > li::after{
+    position: absolute;
+    content: "";
+    height: 80%;
+    width: 1px;
+    background-color: aliceblue;
+    right: -.5rem;
+    bottom: 10%;
+}
+
+.header > nav > ul > li:hover{
+    cursor: pointer;
+    font-size: 1.3rem;
+    
+}
+
+.header > nav > ul > li:hover::before{
+
+    display: block;
+
+}
+
+.header > nav > ul > li:active::before{
+
+    display: block;
+    box-shadow: inset 0 2px 4px 0 black;
+
+}
+.header > nav > ul > li:active{
+    font-size: 1.2rem;
+}
+
+.header > nav > ul > li::before{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    box-shadow: 0 2px 4px 0 black;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+
+}
+
+.header > nav > ul > li:last-child::after{
+    content: none;
+}
