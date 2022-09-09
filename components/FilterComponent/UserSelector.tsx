@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
 
-//6.2.2
+//8.2.2
 interface UserProps{
     handleSelectUser: (id:number)=>void
 }

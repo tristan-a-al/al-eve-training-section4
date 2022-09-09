@@ -3,7 +3,7 @@ import FilteredPosts from './FilteredPosts'
 import UserSelector from './UserSelector'
 
 
-//Q6.2.1
+//Q8.2.1
 // {
 //     "userId": 1,
 //     "id": 4,

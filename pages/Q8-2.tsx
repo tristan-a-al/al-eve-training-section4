@@ -1,10 +1,11 @@
+import FilterComponent from '@/components/FilterComponent'
 import RunAwayEffect from '@/components/RunAwayEffect'
 import { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
-const Q61:NextPage = () => {
+const Q82:NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -15,7 +16,7 @@ const Q61:NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Question 6:
+          Question 8:
         </h1>
 
         <p className={styles.description}>
@@ -25,7 +26,7 @@ const Q61:NextPage = () => {
         <div className={styles.grid}>
 
 
-          <RunAwayEffect/>
+          <FilterComponent/>
 
           
 
@@ -36,4 +37,4 @@ const Q61:NextPage = () => {
   )
 }
 
-export default Q61
+export default Q82

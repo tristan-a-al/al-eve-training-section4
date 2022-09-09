@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-//Q6.2.4
+//Q8.2.4
 
 interface PostsProps{
     userId:number|null,
@@ -11,7 +11,7 @@ interface PostsProps{
 
 function FilteredPosts(props:PostsProps) {
 
-    //Q6.2.5
+    //Q8.2.5
 
     let filteredPosts = props.posts.filter((post)=> post.userId == props.userId)
 

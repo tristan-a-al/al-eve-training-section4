@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import styles from "@/styles/Home.module.css"
 
 
-//Question 6.1
+//Question 8.1
 
 function RunAwayEffect() {
 
@@ -19,16 +19,6 @@ function RunAwayEffect() {
   return (
     <div>
       I have re-rendered: {counter} times...
-
-
-
-
-
-
-
-
-
-
       {counter < 10 && <Link href="/Q6-2"><div className={styles.card}>Continue...</div></Link>}
     </div>
   )
