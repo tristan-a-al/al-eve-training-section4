@@ -19,7 +19,7 @@ function RunAwayEffect() {
   return (
     <div>
       I have re-rendered: {counter} times...
-      {counter < 10 && <Link href="/Q6-2"><div className={styles.card}>Continue...</div></Link>}
+      {counter < 10 && <Link href="/Q8-2"><div className={styles.card}>Continue...</div></Link>}
     </div>
   )
 }

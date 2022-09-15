@@ -14,7 +14,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Question 2: Creating a Todo list.
+          Question 8: Creating a Todo list.
         </h1>
 
         <p className={styles.description}>
@@ -25,7 +25,7 @@ const Home: NextPage = () => {
         <div className={styles.grid}>
 
 
-          <Link href="/Q6-1"><div className={styles.card}>
+          <Link href="/Q8-1"><div className={styles.card}>
               <p> Start Here </p>
             </div></Link>
 
