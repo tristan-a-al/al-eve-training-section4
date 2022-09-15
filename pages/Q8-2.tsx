@@ -20,7 +20,7 @@ const Q82:NextPage = () => {
         </h1>
 
         <p className={styles.description}>
-          The below component is a run-away effect. How would you fix it?
+          The below component filters a list of posts based on a selected user.
         </p>
 
         <div className={styles.grid}>

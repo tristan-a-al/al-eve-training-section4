@@ -14,12 +14,11 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Question 8: Creating a Todo list.
+          Question 8: Optimisation
         </h1>
 
         <p className={styles.description}>
-          This will evaluate your understanding of React Context and using custom hooks as well as basic form validation practices.
-          This will all come together to create an offline todo list task tracker.
+          This will evaluate your understanding of React hooks, types and data handling.
         </p>
 
         <div className={styles.grid}>
