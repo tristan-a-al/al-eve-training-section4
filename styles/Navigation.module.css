@@ -1,5 +1,6 @@
 .header{
-    background-color: rgb(57, 9, 74);
+    background-color: rgb(120, 28, 154);
+    color: azure;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
