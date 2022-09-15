@@ -13,7 +13,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Question 1.1: Fibonacci Sequence Calculator
+          Question 4.1: Fibonacci Sequence Calculator
         </h1>
 
         <p className={styles.description}>
@@ -22,7 +22,7 @@ const Home: NextPage = () => {
 
         <div className={styles.grid}>
 
-          {/* Q1.1 Add the FibonacciCalculator Component here. */}
+          {/* Q4.1 Add the FibonacciCalculator Component here. */}
 
         </div>
       </main>

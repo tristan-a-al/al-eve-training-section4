@@ -4,11 +4,11 @@ import styles from "../../styles/Calculator.module.css"
 
 function FibonacciCalculator() {
 
-    // Q1.2 Here
+    // Q4.2 Here
 
 
     const handleNthUpdate=()=>{
-        // Q1.3 Here
+        // Q4.3 Here
     }
 
 
@@ -26,7 +26,7 @@ function FibonacciCalculator() {
       <div className={styles["cal-output"]}>
         <div></div>
         
-        {/* Q1.4 here */}
+        {/* Q4.4 here */}
 
       </div>
     </div>
