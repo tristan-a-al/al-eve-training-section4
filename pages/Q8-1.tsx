@@ -8,7 +8,7 @@ const Q81:NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>EVE Section4: Q6</title>
+        <title>EVE Section 6: Q8</title>
         <meta name="description" content="Section 4 in EVE React Evaluation. " />
         <link rel="icon" href="/favicon.ico" />
       </Head>
