@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import FibonacciCalculator from "../components/FibonacciCalculator";
 
 const Home: NextPage = () => {
   return (
@@ -23,6 +24,7 @@ const Home: NextPage = () => {
         <div className={styles.grid}>
 
           {/* Q4.1 Add the FibonacciCalculator Component here. */}
+          <FibonacciCalculator />
 
         </div>
       </main>
