@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/s4-nextjs-ts
 /.pnp
 .pnp.js
 
