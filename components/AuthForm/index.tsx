@@ -6,7 +6,7 @@ import Credentials from "next-auth/providers/credentials";
 function AuthForm() {
   const [isSignin, setIssignin] = useState<boolean>(false);
 
-  // Q7.1.1
+  // Q7.1.1 - 1/2 You need to type your refs
   const usernameRef = useRef(null);
   const passwordRef = useRef(null);
 
@@ -18,10 +18,14 @@ function AuthForm() {
     event.preventDefault();
 
     if (isSignin) {
-      // Question 7.1.3
+      // Question 7.1.3 - 1/5
       signIn(Credentials, )
     } else {
-      // Question 7.1.2
+      // Question 7.1.2 - 2/4
+      // Question asks to create the function and CALL it in the submitHandler. Not to declare the funtion here. 
+      //Though that is not what you are scored on. You lost 2 points for not calling it and did not create the function correctly. 
+      //fetch returns a promise so you were meant create an async funtion and await the response.
+      
       // Adding signup function here as requested in question, although normally I would write this function in the component's main body
       const signUp = (email: string, password: string) => {
         const credentials = { email, password };
