@@ -4,13 +4,14 @@ import FibonacciOutput from "./FibonacciOutput";
 
 
 function FibonacciCalculator() {
-  // Q4.2 Here
+  // Q4.2 - 3/3
   const [mVal, setMVal] = useState<number>(1);
   const [nVal, setNVal] = useState<number>(1);
   const enteredNum = useRef<HTMLInputElement>(null);
 
   const handleNthUpdate = () => {
-    // Q4.3 Here
+    // Q4.3 - 0/2  please read your question properly. you were meant to store n in a state.
+    // The calculation was meant to be done on the Output component
     if (
       enteredNum == null ||
       enteredNum.current == null ||
